@@ -1,0 +1,25 @@
+used for iterating over arrays, objects, or executing a block of code repeatedly
+
+1.for loop: Executes a block of code a specified number of times.
+syntax ==>
+initialization -> let i = 0 
+condition  ->  i<=10 
+increment ->  i++ OR ++i 
+decrement ->  i-- OR --i
+
+ for(initialization; condition; increment/decrement){
+    // code.....
+ }
+
+ 2. while loop : 
+ syntax ==>
+ while(condition){
+    // your code.....
+ }
+
+
+ 3. do while loop  :
+ syntax  ==>
+ do {
+    // your code....
+ } while(condition)
