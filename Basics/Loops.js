@@ -16,7 +16,7 @@
 
 
 //3. do while loop==>
-let i = 1
+let i = 1;
 do{
     console.log('inside do while loop',i); 
     i++
