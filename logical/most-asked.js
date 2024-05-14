@@ -23,9 +23,10 @@
 // }
 // console.log(isPalindrome("madam"));
 
+
 // 3.Write a program to remove duplicates from an array ?
 //  #1st way
-// let arr = [1,2,1,2,4,6,2] 
+// let arr = [1,2,1,2,4,6,2]
 // let result = new Set([...arr]) ;
 // console.log(result);
 
@@ -40,12 +41,11 @@
 // console.log(newArr);
 
 // #3rd  way
-// let arr = [10,20,10,20,40] ;
+// let arr = [1,1,2,4,2,1] ;
 // let newArr = arr.filter((item,index)=>{
-//     return  arr.indexOf(item)===index
-// });
+//   return arr.indexOf(item)===index
+// })
 // console.log(newArr);
-
 
 // #4th way
 // function removeDuplicates(arr){
@@ -59,7 +59,6 @@
 // let arr = [1,1,5,7,13,] ;
 // console.log(removeDuplicates(arr));
 
-
 //4. Program to find Reverse of a string without using built-in method ?
 // first way
 // function reverseStr(str) {
@@ -71,7 +70,6 @@
 // }
 // console.log(reverseStr("hello"));
 
-
 // 2nd way
 // function toReverseStr(str){
 //     let reversed = '' ;
@@ -81,7 +79,6 @@
 //     return reversed;
 // }
 // console.log(toReverseStr('heyy'));
-
 
 // 5. Find the max count of consecutive 1’s in an array ?
 // function maxConsecutiveOnes(arr) {
@@ -93,7 +90,7 @@
 //             currentCount++;
 //             maxCount = Math.max(maxCount, currentCount);
 //         } else {
-//             currentCount = 0; 
+//             currentCount = 0;
 //         }
 //     }
 
@@ -102,8 +99,7 @@
 
 // const array = [1, 1, 0, 1, 1, 1, 0, 2,2,2,2,2,2,2];
 // const maxConsecutive = maxConsecutiveOnes(array);
-// console.log("Max consecutive 1's:", maxConsecutive); 
-
+// console.log("Max consecutive 1's:", maxConsecutive);
 
 //6 Find the factorial of given number ?
 // function findFactorial(n) {
@@ -117,15 +113,14 @@
 //         return result;
 //     }
 // }
-// console.log(findFactorial(5)); 
-
+// console.log(findFactorial(5));
 
 //7.Write a JS function that takes an array of numbers and returns a new array with only the even numbers.
 // function getEvenNumbers(arr) {
 //     return arr.filter(num => num % 2 === 0);
 // }
 
-// console.log(getEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); 
+// console.log(getEvenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 // 8.Write a JavaScript function to check if a given number is prime.
 // function isPrime(n){
@@ -141,7 +136,6 @@
 // }
 // console.log(isPrime(71));
 
-
 // 9.  write a javascript function to count the occurrences of each character in the string.
 // function countOccurrences(str){
 //     let counts={} ;
@@ -152,20 +146,17 @@
 //             counts[char] =1
 //         }
 //     }
-//     return counts; 
+//     return counts;
 // }
 // console.log(countOccurrences('hello'))
 
-
-
- //10 Given 2 arrays that are sorted [0,3,4,31] and [4,6,30]. Merge them and sort [0,3,4,4,6,30,31] 
+//10 Given 2 arrays that are sorted [0,3,4,31] and [4,6,30]. Merge them and sort [0,3,4,4,6,30,31]
 // function sortArray(arr1,arr2) {
 //     let mergedArr = arr1.concat(arr2) ;
 //     mergedArr.sort((a,b)=>a-b)
 //     return mergedArr
 // }
 // console.log(sortArray([0,3,4,31],[4,6,30]));
-
 
 // 11.Given two strings. Find if one string can be formed by rearranging the letters of other string.
 // function canFormByRearranging(str1,str2){
@@ -174,7 +165,6 @@
 //     return sortedStr1 === sortedStr2
 // }
 // console.log(canFormByRearranging('listen', 'silent'));
-
 
 // 12.Write logic to get unique objects from below array ?
 // function getUniqueObjects(arrOfObjects){
@@ -196,7 +186,6 @@
 // ]
 // console.log(getUniqueObjects(arrOfObjects));
 
-
 // 13. Write a JavaScript program to find the maximum number in an array.
 // function findMaxNum(arr) {
 //     if(arr.length==0){
@@ -212,13 +201,11 @@
 // }
 // console.log(findMaxNum([2,45,12,56]));
 
-
 // 14.Write a JavaScript function that takes an array of numbers and returns a new array with only the even numbers.
 // function getEvenNums(arr){
-//     return arr.filter((num)=> num%2==0) 
+//     return arr.filter((num)=> num%2==0)
 // }
 // console.log(getEvenNums([1,34,5,12,7]));
-
 
 // 15 Write a javascript function that sorts an array of numbers in ascending order.
 // function sortAscending(arr) {
@@ -236,7 +223,6 @@
 // }
 // console.log(sortAscending([7,1,3,9,5]));
 
-
 // 16  Write a javascript function that sorts an array of numbers in ascending order.
 // function sortDescending(arr) {
 //     let n = arr.length ;
@@ -253,7 +239,6 @@
 // }
 // console.log(sortDescending([2,4,68,13,5]));
 
-
 // 17 function that flattens a nested array into a single-dimensional array.
 // function flattenArr(arr) {
 //     let flattened = [] ;
@@ -267,3 +252,73 @@
 //     return flattened
 // }
 // console.log(flattenArr( [[1, 2, [3]], 4, [5, [6, 7]]]));
+
+
+// const obj = [
+//   {
+//     key: "sample1",
+//     data: "data1",
+//   },
+//   {
+//     key: "sample1",
+//     data: "data1",
+//   },
+//   {
+//     key: "sample2",
+//     data: "data2",
+//   },
+//   {
+//     key: "sample1",
+//     data: "data1",
+//   },
+//   {
+//     key: "sample3",
+//     data: "data1",
+//   },
+//   {
+//     key: "sample4",
+//     data: "data1",
+//   },
+// ];
+
+// const output = {};
+// obj.forEach((item)=>{
+//   if(output[item.key]){
+//     output[item.key].push(item)
+//   }else{
+//     output[item.key] = [item]
+//   }
+// })
+// console.log(output);
+
+// let res = '5' + 3 + 2 ;
+// console.log(res[1]);       //3
+
+// let obj1 ={
+//   name : 'Rahul' ,
+//   greet(msg){
+//     console.log(`${msg} ${this.name}`);
+//   }
+// }
+// let obj2 = {name : 'Anjali'}
+// obj1.greet("Heyy") ;
+// obj1.greet.call(obj2, "Call method") ;
+// obj1.greet.apply(obj2, ["apply method"]) ;
+// let bindFunction = obj1.greet.bind(obj2) ;
+// bindFunction("bind method") ;
+
+// Loop from 0 to 10, but output only numbers 0 through 5
+for (let i = 0; i <5; i++) {
+    console.log('start');
+    setTimeout(()=>{
+     console.log(i);
+    },i*1000)
+    console.log('end');
+   }
+   
+   for(let i=0;i<=10;i++){
+    if(i<=5){
+        console.log(5);
+    }
+
+}

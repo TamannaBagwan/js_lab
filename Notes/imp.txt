@@ -1,0 +1,79 @@
+JavaScript was Complicated.
+Learning these concepts made it easier for me:
+
+𝟭. 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗮𝗻𝗱 𝗗𝗮𝘁𝗮 𝗧𝘆𝗽𝗲𝘀:
+-> Declaration (`var`, `let`, `const`)
+-> Primitive data types (strings, numbers, booleans, null, undefined)
+-> Complex data types (arrays, objects, functions)
+-> Type coercion and conversion
+
+𝟮. 𝗢𝗽𝗲𝗿𝗮𝘁𝗼𝗿𝘀 𝗮𝗻𝗱 𝗘𝘅𝗽𝗿𝗲𝘀𝘀𝗶𝗼𝗻𝘀:
+-> Arithmetic operators (+, -, *, /, %)
+-> Assignment operators (=, +=, -=, *=, /=, %=)
+-> Comparison operators (==, ===, !=, !==, <, >, <=, >=)
+-> Logical operators (&&, || , !)
+-> Ternary operator (conditional operator)
+
+𝟯. 𝗖𝗼𝗻𝘁𝗿𝗼𝗹 𝗙𝗹𝗼𝘄:
+-> Conditional statements (`if`, `else if`, `else`)
+-> Switch statement
+-> Loops (`for`, `while`, `do-while`)
+-> Break and continue statements
+
+𝟰. 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀:
+-> Function declaration and expression
+-> Arrow functions
+-> Parameters and arguments
+-> Return statement
+-> Scope (global scope, function scope, block scope)
+-> Closures
+-> Callback functions
+
+𝟱. 𝗔𝗿𝗿𝗮𝘆𝘀 𝗮𝗻𝗱 𝗢𝗯𝗷𝗲𝗰𝘁𝘀:
+-> Creation and initialization
+-> Accessing and modifying elements
+-> Array methods (push, pop, shift, unshift, splice, slice, concat, etc.)
+-> Object properties and methods
+-> JSON (JavaScript Object Notation)
+
+𝟲. 𝗖𝗹𝗮𝘀𝘀𝗲𝘀 𝗮𝗻𝗱 𝗣𝗿𝗼𝘁𝗼𝘁𝘆𝗽𝗲𝘀:
+-> Class syntax (constructor, methods, static methods)
+-> Inheritance
+-> Prototypal inheritance
+-> Object.create() and Object.setPrototypeOf()
+
+𝟳. 𝗘𝗿𝗿𝗼𝗿 𝗛𝗮𝗻𝗱𝗹𝗶𝗻𝗴:
+-> Try...catch statement
+-> Throwing errors
+-> Error objects (Error, SyntaxError, TypeError, etc.)
+-> Error handling best practices
+
+𝟴. 𝗔𝘀𝘆𝗻𝗰𝗵𝗿𝗼𝗻𝗼𝘂𝘀 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁:
+-> Callbacks
+-> Promises (creation, chaining, error handling)
+-> Async/await syntax
+-> Fetch API
+-> setTimeout() and setInterval()
+
+𝟵. 𝗗𝗢𝗠 𝗠𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝘁𝗶𝗼𝗻:
+-> Selecting DOM elements
+-> Modifying element properties and attributes
+-> Creating and removing elements
+-> Traversing the DOM
+
+𝟭𝟬. 𝗘𝘃𝗲𝗻𝘁 𝗛𝗮𝗻𝗱𝗹𝗶𝗻𝗴:
+-> Adding event listeners
+-> Event objects
+-> Event propagation (bubbling and capturing)
+-> Event delegation
+
+𝟭𝟭. 𝗠𝗼𝗱𝘂𝗹𝗲𝘀 𝗮𝗻𝗱 𝗠𝗼𝗱𝘂𝗹𝗮𝗿𝗶𝘇𝗮𝘁𝗶𝗼𝗻:
+-> ES6 modules (import/export)
+-> CommonJS modules (require/module.exports)
+-> Module bundlers (Webpack, Rollup)
+
+𝟭𝟮. 𝗕𝗿𝗼𝘄𝘀𝗲𝗿 𝗖𝗼𝗺𝗽𝗮𝘁𝗶𝗯𝗶𝗹𝗶𝘁𝘆 𝗮𝗻𝗱 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲:
+-> Cross-browser compatibility
+-> Performance optimization techniques
+-> Minification and code splitting
+-> Lazy loading
