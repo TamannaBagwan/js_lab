@@ -307,18 +307,29 @@
 // let bindFunction = obj1.greet.bind(obj2) ;
 // bindFunction("bind method") ;
 
-// Loop from 0 to 10, but output only numbers 0 through 5
-for (let i = 0; i <5; i++) {
-    console.log('start');
-    setTimeout(()=>{
-     console.log(i);
-    },i*1000)
-    console.log('end');
-   }
-   
-   for(let i=0;i<=10;i++){
-    if(i<=5){
-        console.log(5);
-    }
 
+// Loop from 0 to 10, but output only numbers 0 through 5
+// for (let i = 0; i <5; i++) {
+//     console.log('start');
+//     setTimeout(()=>{
+//      console.log(i);
+//     },i*1000)
+//     console.log('end');
+//    }
+   
+//    for(let i=0;i<=10;i++){
+//     if(i<=5){
+//         console.log(5);
+//     }
+// }
+
+let str = 'tamanna' ;
+let counts = {} ;
+for(const char of str){
+    if(counts[char]){
+        counts[char] += 1
+    }else{
+        counts[char] = 1
+    }
 }
+console.log(counts);
